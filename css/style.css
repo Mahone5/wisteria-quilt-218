@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+:root {
+  --primary-color: #c9a0dc;
+  --primary-color-dark-3: #a968c7;
+  --primary-color-dark-2: #b47bce;
+  --primary-color-dark-1: #be8dd5;
+  --primary-color-light-1: #d4b3e3;
+  --primary-color-light-2: #dec5ea;
+  --primary-color-light-3: #e9d8f1;
+
+  --background-primary-color: #faf6fc;
+  --background-secondary-color: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #333;
+  background-color: var(--background-primary-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color-dark-3);
+  color: #fff;
+  height: 70px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
