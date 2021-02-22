@@ -132,6 +132,24 @@ img {
   transform: scale(0.98);
 }
 
+.main {
+  padding: 100px;
+}
+
+.main-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+.main .grid h3 {
+  font-size: 35px;
+}
+
+.main .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .main img {
   width: 36px;
   height: 36px;
