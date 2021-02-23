@@ -88,6 +88,7 @@ img {
 
 .showcase p {
   margin: 20px 0;
+  letter-spacing: 1.2px;
 }
 
 .showcase .grid {
@@ -138,6 +139,7 @@ img {
 
 .main-heading {
   max-width: 500px;
+  letter-spacing: 1.1px;
   margin: auto;
 }
 
@@ -153,4 +155,15 @@ img {
 .main img {
   width: 36px;
   height: 36px;
+}
+
+.main-sub .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.main-sub .grid img {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  border-radius: 10px;
 }
