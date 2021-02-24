@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #c9a0dc;
+  --primary-color-darkest: #843da5;
   --primary-color-dark-3: #a968c7;
   --primary-color-dark-2: #b47bce;
   --primary-color-dark-1: #be8dd5;
@@ -133,6 +134,14 @@ img {
   transform: scale(0.98);
 }
 
+.design img {
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.design btn {
+}
+
 .main {
   padding: 100px;
 }
@@ -172,6 +181,11 @@ img {
   border-radius: 10px;
 }
 
+/* Design */
+.design .grid {
+  grid-template-columns: 4fr 3fr;
+}
+
 /* Gallery */
 .gallery {
   background-color: #f9f7f6;
@@ -181,7 +195,6 @@ img {
   grid-template-rows: repeat(7, 5vw);
   grid-gap: 1rem;
   padding: 1.5rem;
-  margin-top: 100px;
 }
 .gallery__item--1 {
   grid-row: 1 / span 2;
