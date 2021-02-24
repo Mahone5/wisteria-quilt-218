@@ -89,12 +89,11 @@ img {
 
 .showcase p {
   margin: 20px 0;
-  letter-spacing: 1.2px;
 }
 
 .showcase .grid {
-  grid-template-columns: 55% 45%;
-  gap: 30px;
+  grid-template-columns: 60% auto;
+  column-gap: 30px;
   overflow: visible;
 }
 
@@ -262,10 +261,44 @@ img {
 nav a {
   line-height: 1.6;
 }
+
 .footer .social a {
   margin: 0 10px;
 }
 
 nav a:hover {
   border-bottom: 1px #fff solid;
+}
+
+.footer .social .fab {
+  transition: all 0.3s;
+}
+
+.footer .social .fab:hover {
+  transform: scale(1.15);
+}
+
+/* Tablets and Under */
+@media (max-width: 800px) {
+  .grid,
+  .showcase .grid,
+  .main .grid,
+  .main-sub .grid,
+  .design .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar .flex {
+    flex-direction: column;
+  }
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 }
