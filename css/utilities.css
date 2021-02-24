@@ -52,6 +52,15 @@
   color: #fff;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
 .bg-light,
 .btn-light {
   background-color: var(--primary-color-light-1);
@@ -162,7 +171,7 @@
 }
 
 .py-5 {
-  padding: 4repadding;
+  padding: 4rem;
 }
 
 .p-1 {
