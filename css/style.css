@@ -51,6 +51,20 @@ img {
 }
 
 /* Navbar */
+
+.logo-box {
+  display: flex;
+}
+
+.logo-box img {
+  height: 50px;
+  width: 50px;
+  margin: 20px 20px 0 0;
+}
+
+.logo-box h1 {
+  margin-top: 25px;
+}
 .navbar {
   background-color: var(--primary-color-dark-3);
   color: #fff;
@@ -59,6 +73,7 @@ img {
 
 .navbar ul {
   display: flex;
+  margin-top: 15px;
 }
 
 .navbar a {
@@ -92,9 +107,9 @@ img {
 }
 
 .showcase .grid {
-  grid-template-columns: 60% auto;
-  column-gap: 30px;
   overflow: visible;
+  grid-template-columns: 55% auto;
+  gap: 30px;
 }
 
 .showcase-form {
