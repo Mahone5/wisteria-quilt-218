@@ -256,6 +256,25 @@ img {
   display: block;
 }
 
+/* Features */
+.features-sub-head .grid {
+  gap: 60px;
+}
+
+.features-head img,
+.features-sub-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.features-sub-head-left h1 {
+  text-align: center;
+}
+
+.features-sub-head-right h1 {
+  text-align: center;
+}
+
 /* Footer */
 
 nav a {
