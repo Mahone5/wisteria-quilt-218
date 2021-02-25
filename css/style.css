@@ -277,28 +277,3 @@ nav a:hover {
 .footer .social .fab:hover {
   transform: scale(1.15);
 }
-
-/* Tablets and Under */
-@media (max-width: 800px) {
-  .grid,
-  .showcase .grid,
-  .main .grid,
-  .main-sub .grid,
-  .design .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Mobile */
-@media (max-width: 500px) {
-  .navbar {
-    height: 110px;
-  }
-  .navbar .flex {
-    flex-direction: column;
-  }
-  .navbar ul {
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-}
