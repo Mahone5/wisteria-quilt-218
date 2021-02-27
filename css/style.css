@@ -290,6 +290,34 @@ img {
   text-align: center;
 }
 
+/*Pricing*/
+.pricing-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.pricing-sub-head .grid {
+  gap: 100px;
+}
+
+.pricing-sub-head ul {
+  list-style-type: disc;
+}
+
+.pricing-sub-head li {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+/*Disclaimer*/
+.disclaimer {
+  background-color: var(--primary-color-light-3);
+}
+.disclaimer .grid {
+  grid-template-columns: 100%;
+  padding: 20px;
+}
+
 /* Footer */
 
 nav a {
